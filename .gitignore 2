@@ -1,0 +1,16 @@
+# Ignore object files
+*.o
+
+# Ignore executable files
+*.out
+*.exe
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore build output folders (if you have any)
+build/
+bin/
+
+# macOS system files (if you are on Mac)
+.DS_Store

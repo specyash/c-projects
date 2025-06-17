@@ -10,7 +10,7 @@ int main(){
     }
 
     for (int i = 0; i < 5 ; i++) {
-        printf("The address of marks at index %d is %p\n", i , (void *)&marks[i]);
+        printf("The address of marks at index %d is %u\n", i ,&marks[i]);
     }
     
     return 0;
